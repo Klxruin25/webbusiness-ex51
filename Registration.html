@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>EX51 - Trần Khánh Linh</title>
+        <style>
+            body {
+            background-color: teal;
+            color: white;
+            font-family: Arial, sans-serif;
+            }
+            .container {
+            width: 600px;
+            margin: 20px auto;
+            border: 2px solid blue;
+            padding: 20px;
+            }
+
+            h2 {
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            }
+
+            form p {
+            line-height: 1.5;
+            }
+            .header-img {
+            text-align: center;
+            margin-bottom: 10px;
+            }
+            .buttons {
+            text-align: center;
+            margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div class="header-img">
+            <img src="Logo.gif" alt="Logo">
+        </div>
+        <h2>Newborn Registration</h2>
+        <form name="frm_registration">
+            <p>Date: <input type="text" placeholder="mm/dd/yy"></p>
+            <p> 1) Infant's first Name: <input type="text" name="firstName" size="15">
+                Last:<input type="text" name="lastName" size="15"></p>
+            <p>2) Medical Record #:<input type="text" name="record" size="15"></p>
+            <p>3) Date of birth: <input type="text" placeholder="mm/dd/yy"></p>
+            <p>4) Birth weight: <input type="text" name="weight" size="15"></p>
+            <p>5) APGAR score: <input type="text" name="score" size="15"></p>
+            <p>6) Mother's first name: <input type="text" name="mo.first.name" size="15">
+                    Last: <input type="text" name="mo.last.name" size="15"></p>
+            <p>7) Father's first name:  <input type="text" name="score" size="15">
+                    Last: <input type="text" name="mo.last.name" size="15"></p>
+            <p>8) Physician (check all that apply:)
+                <select name="physicians" multiple>
+                    <option>Dr. Warren Albert</option>
+                    <option>Dr. Maria Alvarez</option>
+                    <option>Dr. Karen Brinkman</option>
+                    <option>Dr. Micheal Kerry</option>
+                </select>
+            </p>
+            <div class="buttons">
+                <input type="button" value="Register">
+                <input type="button" value="Cancel">
+            </div>
+        </form>
+        </div>
+    </body>
+</html>
